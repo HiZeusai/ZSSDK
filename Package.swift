@@ -17,37 +17,37 @@ let package = Package(
         .binaryTarget(
             name: "ZSSDK",
             url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/ZSSDK.xcframework.zip",
-            checksum: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+            checksum: ""
         ),
         .binaryTarget(
             name: "ZSCoreKit",
             url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/ZSCoreKit.xcframework.zip",
-            checksum: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+            checksum: ""
         ),
         .binaryTarget(
             name: "YKIAPStoreKit",
             url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/YKIAPStoreKit.xcframework.zip",
-            checksum: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+            checksum: ""
         ),
         .binaryTarget(
             name: "Pay_zeus",
             url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/Pay_zeus.xcframework.zip",
-            checksum: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+            checksum: ""
         ),
         .binaryTarget(
             name: "AdjustSdk",
             url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/AdjustSdk.xcframework.zip",
-            checksum: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+            checksum: ""
         ),
         .binaryTarget(
             name: "AdjustSigSdk",
             url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/AdjustSigSdk.xcframework.zip",
-            checksum: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+            checksum: ""
         ),
         .binaryTarget(
             name: "Analytics_Adjust",
             url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/Analytics_Adjust.xcframework.zip",
-            checksum: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+            checksum: ""
         ),
         .target(
             name: "ZSSDKWrapper",
