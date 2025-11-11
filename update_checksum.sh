@@ -124,3 +124,11 @@ PY
 echo "-------------------------------------"
 echo "✅ 所有 checksum 已更新到 $PACKAGE_FILE"
 echo ""
+
+# ==========
+# 清理临时文件
+# ==========
+if [ -d "$TEMP_DIR" ]; then
+  rm -rf "$TEMP_DIR"
+  echo "🧹 已清理临时目录 $TEMP_DIR"
+fi
