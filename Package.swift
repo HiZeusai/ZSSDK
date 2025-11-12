@@ -13,6 +13,10 @@ let package = Package(
             targets: ["ZSSDKWrapper"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/adjust/ios_sdk.git", from: "5.4.5"),
+        .package(url: "https://github.com/adjust/ios_signature_sdk.git", from: "3.61.0")
+    ],
     targets: [
         .binaryTarget(
             name: "ZSSDK",
@@ -46,7 +50,9 @@ let package = Package(
                 "ZSCoreKit",
                 "YKIAPStoreKit",
                 "Pay_zeus",
-                "Analytics_Adjust"
+                "Analytics_Adjust",
+                .product(name: "Adjust", package: "ios_sdk"),
+                .product(name: "AdjustSigSdk", package: "ios_signature_sdk")
             ],
             path: "Sources"
         )
