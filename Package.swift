@@ -17,50 +17,50 @@ let package = Package(
         // 核心 SDK
         .binaryTarget(
             name: "ZSSDK",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/ZSSDK.xcframework.zip",
-            checksum: "158e74bf420c610218bb49ab66db0f3f4e0ca1e21198b71d691529aa531fa38d"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.3/ZSSDK.xcframework.zip",
+            checksum: "8c4955d519867d49774e90d018ef984f55aedcd01e57e0fabfa13e9bbfce8a2e"
         ),
 
         // 核心工具库
         .binaryTarget(
             name: "ZSCoreKit",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/ZSCoreKit.xcframework.zip",
-            checksum: "270877303b5d07f00a73b8c804ce4606ac80adbb5cf9b4dbdb76232f1c5ea2b7"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.3/ZSCoreKit.xcframework.zip",
+            checksum: "be9c7708546f0eaae6f51925da449d29b6d287dce662cf8ab0730436b8d40f7f"
         ),
 
         // IAP 支付模块
         .binaryTarget(
             name: "YKIAPStoreKit",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/YKIAPStoreKit.xcframework.zip",
-            checksum: "4258fd4dd898c6e1f216e77b34e2d3ffcc8073931663b49e7cdc30c95683a1b6"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.3/YKIAPStoreKit.xcframework.zip",
+            checksum: "65b2dc0d750de6306a696bb922720c731e372599b208a604e5f3c35c37ca6d35"
         ),
 
         // Zeus 支付
         .binaryTarget(
             name: "Pay_zeus",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/Pay_zeus.xcframework.zip",
-            checksum: "1ab53beeb86e7790bb2de8fe7920e76ffd85ee8769eeb474467907b20ffd69f7"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.3/Pay_zeus.xcframework.zip",
+            checksum: "cfb2749b8a012b2a844be78aa0fe1cfcd6cbc89024be5c9f0c9fafeb0f89cac2"
         ),
 
         // Adjust SDK
         .binaryTarget(
             name: "AdjustSdk",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/AdjustSdk.xcframework.zip",
-            checksum: "f255f1c045b2371bb4ae9739ca60cf1163407e7be32d88eb141ccb3910b55ca5"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.3/AdjustSdk.xcframework.zip",
+            checksum: "7cfb5f2e2591ad8cc8e9229e3db6706e408be7df62d83bc914867e851c4dd6f3"
         ),
 
         // Adjust Signature 支持
         .binaryTarget(
             name: "AdjustSigSdk",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/AdjustSigSdk.xcframework.zip",
-            checksum: "85e96e34ed8d42831d3f516cf0c3b5249587d02f769e696ef8cbe2bcf66767ab"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.3/AdjustSigSdk.xcframework.zip",
+            checksum: "6e6159542a47585129a715777709259574c1e45e69bc20e91b23952b43095f8e"
         ),
 
         // Adjust 数据分析扩展
         .binaryTarget(
             name: "Analytics_Adjust",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.1/Analytics_Adjust.xcframework.zip",
-            checksum: "a63b3034fc524b0257dd46583e4a94adf544192dcd15444f41372fb0f18f823f"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.3/Analytics_Adjust.xcframework.zip",
+            checksum: "308d8f6d86db18e14384eb692edd425b19ab18de93f001ba8c0ff673f7d921f3"
         ),
 
         // Wrapper 目标
