@@ -14,7 +14,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/adjust/ios_sdk.git", from: "5.4.5")
+        .package(url: "https://github.com/adjust/ios_sdk.git", from: "5.4.5"),
+        .package(url: "https://github.com/adjust/adjust_signature_sdk.git", from: "3.61.0")
     ],
     targets: [
         .binaryTarget(
@@ -50,7 +51,8 @@ let package = Package(
                 "YKIAPStoreKit",
                 "Pay_zeus",
                 "Analytics_Adjust",
-                .product(name: "Adjust", package: "ios_sdk")
+                .product(name: "AdjustSdk", package: "ios_sdk"),
+                .product(name: "AdjustSigSdk", package: "adjust_signature_sdk")
             ],
             path: "Sources"
         )
