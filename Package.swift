@@ -35,16 +35,6 @@ let package = Package(
             checksum: "cfb2749b8a012b2a844be78aa0fe1cfcd6cbc89024be5c9f0c9fafeb0f89cac2"
         ),
         .binaryTarget(
-            name: "AdjustSdk",
-            url: "https://github.com/adjust/adjust_signature_sdk/releases/download/v3.61.0/AdjustSigSdk-iOS-tvOS-Static-3.61.0.xcframework.zip",
-            checksum: "ba968458627349f827c66c19cd913b41ffef6aa187f2e8d617660b78a0f648ba"
-        ),
-        .binaryTarget(
-            name: "AdjustSigSdk",
-            url: "https://github.com/adjust/ios_sdk/releases/download/v5.4.5/AdjustSdk-iOS-tvOS-Static-5.4.5.xcframework.zip",
-            checksum: "77deb65668dd5cc1805df6113dd9827b72d1f663bceaefae6dcbd6c767af0ca5"
-        ),
-        .binaryTarget(
             name: "Analytics_Adjust",
             url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.3/Analytics_Adjust.xcframework.zip",
             checksum: "308d8f6d86db18e14384eb692edd425b19ab18de93f001ba8c0ff673f7d921f3"
@@ -56,8 +46,6 @@ let package = Package(
                 "ZSCoreKit",
                 "YKIAPStoreKit",
                 "Pay_zeus",
-                "AdjustSdk",
-                "AdjustSigSdk",
                 "Analytics_Adjust"
             ],
             path: "Sources"
