@@ -52,7 +52,7 @@ let package = Package(
                 "Pay_zeus",
                 "Analytics_Adjust",
                 .product(name: "AdjustSdk", package: "ios_sdk"),
-                .product(name: "AdjustSigSdk", package: "adjust_signature_sdk")
+                .product(name: "AdjustSignature", package: "adjust_signature_sdk")
             ],
             path: "Sources"
         )
