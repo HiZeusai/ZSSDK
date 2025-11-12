@@ -54,7 +54,10 @@ let package = Package(
                 .product(name: "AdjustSdk", package: "ios_sdk"),
                 .product(name: "AdjustSignature", package: "adjust_signature_sdk")
             ],
-            path: "Sources"
+            path: "Sources",
+            linkerSettings: [
+                .unsafeFlags(["-ObjC"], .when(platforms: [.iOS]))
+            ]
         )
     ]
 )
