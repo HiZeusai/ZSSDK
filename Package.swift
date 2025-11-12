@@ -17,7 +17,7 @@ let package = Package(
         .binaryTarget(
             name: "ZSSDK",
             url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.3/ZSSDK.xcframework.zip",
-            checksum: "ae15e05f6b22f5405f07ebdc3ef65b694edb9a7900cab8299dc4bfb478c84a5b"
+            checksum: "8c4955d519867d49774e90d018ef984f55aedcd01e57e0fabfa13e9bbfce8a2e"
         ),
         .binaryTarget(
             name: "ZSCoreKit",
