@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ZSSDK",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.8/ZSSDK_2.1.8_20251127180406.zip",
-            checksum: "c5ddd14c1863e901d725ef0fe4ade494c0a1829ad1eff9fc62c321620107c17a"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.8/ZSSDK_2.1.8_20251224181259.zip",
+            checksum: "72b3cdd7727110b36f9d70d54f0a59f00967ecfd2ce6093291bfbb2c7f236c91"
         ),
         .binaryTarget(
             name: "ZSCoreKit",
