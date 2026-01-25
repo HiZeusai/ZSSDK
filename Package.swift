@@ -20,28 +20,28 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ZSSDK",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.10/ZSSDK_2.1.10_20260122141939.zip",
-            checksum: "2536fd1e287452bbcbea8273f3cbce394848c6a870f3e3c04b754d47b80567b8"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.11/ZSSDK_2.1.11_20260125110942.zip",
+            checksum: "94e963859818c8345a2584f075ccf3386987596540e0c1757d288018b2b7248a"
         ),
         .binaryTarget(
             name: "ZSCoreKit",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.10/ZSCoreKit_2.1.10_20260122141939.zip",
-            checksum: "7727e1e1fbe57fa3ab1f858fb518092ee210d2e67fdb1cad4d64c8afd722165e"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.11/ZSCoreKit_2.1.11_20260125110942.zip",
+            checksum: "a88b840cd604b79b365174c98da25efc76c2d72c0bc4300f9f49235f7c6a8c0f"
         ),
         .binaryTarget(
             name: "YKIAPStoreKit",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.10/YKIAPStoreKit_2.1.10_20260122141939.zip",
-            checksum: "b1c020b950f05e722ddfae59cc8c0ac34ffc7369f6905d9c03b7a4f01ac2dd60"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.11/YKIAPStoreKit_2.1.11_20260125110942.zip",
+            checksum: "09703763a9d6b0e936d6de0d4342bdcd5e0429c4505a6d262936964b35367af7"
         ),
         .binaryTarget(
             name: "Pay_zeus",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.10/Pay_zeus_2.1.10_20260122141939.zip",
-            checksum: "9b7e57b87ee28958f13416e90565e15cbafca0dc4a9f0432f714c2a4dafdb9fb"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.11/Pay_zeus_2.1.11_20260125110942.zip",
+            checksum: "cc27911e64dc041b6c0736ca9f80faa16fb3c8238924dab4c539194d4b5745ef"
         ),
         .binaryTarget(
             name: "Analytics_Adjust",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.10/Analytics_Adjust_2.1.10.zip",
-            checksum: "09adf5492efcf1fc71f24c6454da419dcc2541d3e980a12174ac7ab2c116db68"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.11/Analytics_Adjust_2.1.11_20260125111829.zip",
+            checksum: "5d052c438e839ae384d38e4f7b9f33405a1633168ea7fd4e023cdd4aab558357"
         ),
         .target(
             name: "ZSSDKWrapper",
