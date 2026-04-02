@@ -30,8 +30,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "YKIAPStoreKit",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.11/YKIAPStoreKit_2.1.11_20260125110942.zip",
-            checksum: "09703763a9d6b0e936d6de0d4342bdcd5e0429c4505a6d262936964b35367af7"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.11/YKIAPStoreKit.xcframework.zip",
+            checksum: "f4cbebade4061551c574c990dbe462bfc9118bf3ee3df92bbcd7dc3222dbc91a"
         ),
         .binaryTarget(
             name: "Pay_zeus",
