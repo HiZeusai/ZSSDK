@@ -20,27 +20,27 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ZSSDK",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.13/ZSSDK_2.1.13_20260422230609.zip",
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.13/ZSSDK_2.1.13_20260423232612.zip",
             checksum: "1b58934072c37327ac2b80fa2a2e343ad09b319469145352b57c144a9173834b"
         ),
         .binaryTarget(
             name: "ZSCoreKit",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.13/ZSCoreKit_2.1.13_20260422230609.zip",
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.13/ZSCoreKit_2.1.13_20260423232612.zip",
             checksum: "f35cbde1eea0bb1794c67f1664b347bc8bf2d89a3f4016a09151536cdcc0aad4"
         ),
         .binaryTarget(
             name: "YKIAPStoreKit",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.13/YKIAPStoreKit_2.1.13_20260422230609.zip",
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.13/YKIAPStoreKit_2.1.13_20260423232612.zip",
             checksum: "3f4f2f10526245b818e18d6ce026cf3498c94973c33e5b0282a9498b386a4643"
         ),
         .binaryTarget(
             name: "Pay_zeus",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.13/Pay_zeus_2.1.13_20260422230609.zip",
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.13/Pay_zeus_2.1.13_20260423232612.zip",
             checksum: "2216b3479a400447cef5adf10892fedd72102c634c9740e4f2745a8fec789f84"
         ),
         .binaryTarget(
             name: "Analytics_Adjust",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.13/Analytics_Adjust_2.1.13_20260422230609.zip",
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.13/Analytics_Adjust_2.1.13_20260423232612.zip",
             checksum: "871af920f64eb890abc3cec3be35d242b675741b13d9e81d7d476821831084af"
         ),
         .target(
