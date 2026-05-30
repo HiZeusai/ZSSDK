@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(
             name: "ZSCoreKit",
             url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.16/ZSCoreKit_2.1.16_20260530225313.zip",
-            checksum: "f40469ac211009b99746e624deb464c808e775ed1f65dbdd905f668ff980c152"
+            checksum: "35efcf81fd1f1463ef9f262004f10b088d37563504eafa7fbcc287b31688503f"
         ),
         .binaryTarget(
             name: "YKIAPStoreKit",
