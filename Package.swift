@@ -20,27 +20,27 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ZSSDK",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.21/ZSSDK_2.1.21_20261104204243.zip",
-            checksum: "3148c6180ee9145382061afdca130bb8b03ab11859907cb9695feb6aa4034ce7"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.21/ZSSDK_2.1.21_20261111114809.zip",
+            checksum: "11834ac7885e1068c234d1552a710c386d320e8752adae36b013c420770027e0"
         ),
         .binaryTarget(
             name: "ZSCoreKit",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.21/ZSCoreKit_2.1.21_20261104204243.zip",
-            checksum: "08daabd4268b16015b122639b62dcaffb24b0cf904ea210277f8edd47944a1cc"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.21/ZSCoreKit_2.1.21_20261111114809.zip",
+            checksum: "b0eae1429138031092398e4d9d5845a4d31fda967316bd15b7cf0bc722a4f6d8"
         ),
         .binaryTarget(
             name: "YKIAPStoreKit",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.21/YKIAPStoreKit_2.1.21_20261104204243.zip",
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.21/YKIAPStoreKit_2.1.21_20261111114809.zip",
             checksum: "977de93c370fb783acc91781628808ca0a30341be95eeccf595f77b54e1e815c"
         ),
         .binaryTarget(
             name: "Pay_zeus",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.21/Pay_zeus_2.1.21_20261104204243.zip",
-            checksum: "587fc8e6a84b6925aafe8b38a0a8687bee9c4dd5d17965c2fbc0fe63f01ef324"
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.21/Pay_zeus_2.1.21_20261111114809.zip",
+            checksum: "d030305f26ed2c6f2dd6d23f46e2c11178c6eeedd24f97f2ef0499550f9bba69"
         ),
         .binaryTarget(
             name: "Analytics_Adjust",
-            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.21/Analytics_Adjust_2.1.21_20261104204243.zip",
+            url: "https://github.com/HiZeusai/SDKPackage/releases/download/2.1.21/Analytics_Adjust_2.1.21_20261111114809.zip",
             checksum: "9a3c8cb30d4fa4c9a91ff5530c2c0fda6900099e77164f01301b8b3833d0da02"
         ),
         .target(
